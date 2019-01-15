@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django_pdb',
     'rest_framework',
     'assets',
     'django.contrib.admin',

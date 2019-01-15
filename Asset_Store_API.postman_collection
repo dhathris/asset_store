@@ -16,7 +16,21 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": ""
+					"raw": "http://127.0.0.1:8000/api/v1/assets/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"assets",
+						""
+					]
 				},
 				"description": "Requests all assets in the store"
 			},
@@ -30,13 +44,13 @@
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
-						"value": "application/json",
-						"type": "text"
+						"type": "text",
+						"value": "application/json"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"assets\": [\n\t\t{\n\t\t\t\"asset_name\": \"SkySat7890\",\n\t\t\t\"asset_type\": \"satellite\",\n\t\t\t\"asset_class\": \"skysat\"\n\t\t}\n\t]\n}"
+					"raw": "{\n\t\"assets\": [\n\t\t{\n\t\t\t\"asset_name\": \"SkySat1234\",\n\t\t\t\"asset_type\": \"satellite\",\n\t\t\t\"asset_class\": \"skysat\"\n\t\t}\n\t]\n}"
 				},
 				"url": {
 					"raw": "http://127.0.0.1:8000/api/v1/assets/",

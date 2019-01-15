@@ -57,6 +57,10 @@ class CreateAssetsView(generics.CreateAPIView):
         errors = []
         if match is None:
             errors.append("asset_name is not formatted correctly")
+        else:
+            name = "".join(asset['asset_name'])
+            if name.startswith("_") or name.startswith("-"):
+                errors.append("asset_name cannot start with either _ or -")
         if asset['asset_type'] == TYPES[0]:
             if asset['asset_class'] not in SAT_CLASSES:
                 errors.append("asset_class is not valid")

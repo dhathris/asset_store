@@ -16,10 +16,6 @@ A RESTFul API for managing assets such as satellites, antennas etc
     - This script installs all the dependencies except python and pip, using pip
     - This script installs the missing required packages, if your system already has the required package installed, it skips the installation of that package
   
-## Execution instructions
-1. For a sanity check, run the tests using the command `python manage.py test` from the root of the cloned repository
-2. To start the API, run the command `python manage.py runserver` from the root of the cloned repository
-
 ## Scope of the API Input and Output
 The API is only tested with JSON input and output. XML as input is NOT tested.
 

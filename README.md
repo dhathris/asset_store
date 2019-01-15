@@ -47,4 +47,4 @@ The script `runserver.sh` is provided as a convenience to run the server for thi
 2. A postman collection (`Asset_Store_API.postman_collection`) is provided at the root of this repository to easily verify the API. This collection expects the API to be deployed on port 8000 on your local server (127.0.0.1). The collection contains requests for CRUD HTTP methods (POST, GET, PUT, DELETE).
 
 ## Known Bugs
-1. The first time a PUT request is made with any body content, the server does not respond. If you make this request again, the reponse received is the expected `405 Method Not Allowed`. This is a known bug and will be resolved at a future time. Note that if the PUT request does NOT contain any body this problem does not arise.
+1. On windows OS, the first time a PUT request is made with any body content, the server does not respond. If you make this request again, the reponse received is the expected `405 Method Not Allowed`. This is a known bug and will be resolved at a future time. Note that if the PUT request does NOT contain any body this problem does not arise.

@@ -9,7 +9,8 @@ A RESTFul API for managing assets such as satellites, antennas etc
 
 ## Install instructions
 1. Clone this repository locally
-2. Execute the script `install.sh`
+2. The permissions on the bash shell scripts need to changed to 755 with command `chmod 755 *.sh`
+3. Execute the script `install.sh`
     - Python is expected to be installed by the user
     - OPTIONAL: if pip is not up-to-date, upgrade pip with command `pip install --upgrade pip`
     - This script installs all the dependencies except python and pip, using pip
